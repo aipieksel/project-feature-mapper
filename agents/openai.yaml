@@ -1,0 +1,4 @@
+interface:
+  display_name: "Project Feature Mapper"
+  short_description: "Two paths: map features, export code, update prior output"
+  default_prompt: "$project-feature-mapper <input> <output>"
