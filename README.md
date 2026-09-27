@@ -2,7 +2,15 @@
 
 Maintained by [aipieksel](https://github.com/aipieksel).
 
-A source-backed feature inventory and reusable-code export skill. It maps routes, UI controls, conditional behavior, supporting source and dependencies, and writes a handoff for another builder. It excludes replacement implementation and visual design specifications.
+Project Feature Mapper is a Codex skill for understanding what an existing app actually does and preparing a reusable handoff for another builder. It follows routes, UI controls, conditions, source files, and dependencies, then writes a feature inventory and source export at the output path you choose.
+
+Give it an input project and an output folder. It examines the current source, maps each page and global behavior, and records what can be reused and what needs adaptation. The output is a source-backed map and code package; it does not build a replacement app or promise visual parity without separate verification.
+
+## What you receive
+
+- `FEATURE_SCOPE.md` for the whole application.
+- `pages/<route-id>/page.md` for every route and its behavior.
+- A reuse bundle with dependencies, adaptation notes, and preserved snapshots.
 
 ## Install and invoke
 
